@@ -1,0 +1,13 @@
+{
+  "name": "amp-shadow-pos",
+  "private": true,
+  "workspaces": [
+    "apps/pos-tablet"
+  ],
+  "scripts": {
+    "pos": "npm --workspace apps/pos-tablet run start",
+    "pos:ios": "npm --workspace apps/pos-tablet run ios",
+    "pos:android": "npm --workspace apps/pos-tablet run android",
+    "pos:web": "npm --workspace apps/pos-tablet run web"
+  }
+}
